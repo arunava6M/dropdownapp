@@ -1,0 +1,65 @@
+body{
+    position: relative;
+    background-color: #5061af;
+}
+.main{
+    position:absolute;
+    text-align: center;
+    left:300px;
+    top:150px;
+    height:300px;
+    width:50%;
+    background-color: #8293df;
+    box-shadow: 0 10px 500px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.dropdown{
+    position:relative;
+    
+    height:100%;
+    width:100%;
+}
+.staticDrop{
+    position: absolute;
+    left:100px;
+    top:35%;
+    height: 50px;
+    width: 100px;
+}
+.Select{
+    height: 50px;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 13px;
+    border-color:none;
+    border:transparent;
+    margin: 0%;
+    color: grey;
+    background-color: #d7d8db;
+    box-shadow: 0 10px 500px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    transition: 0.3s;
+}
+
+.Select:hover{
+    padding:8px;
+
+}
+.title{
+    position: absolute;
+    background-color: #a5b3f3;
+    font-family: 'Quicksand', sans-serif;
+    color:#e9f3ec;
+    padding-top:10px;
+    font-size: 15px;
+    box-shadow: 0 10px 500px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:30px;
+    width:100%;
+}
+.dynaimcDrop{
+    opacity:0;
+    position: absolute;
+    right:200px;
+    top:35%;
+    height: 50px;
+    width: 100px;
+}
